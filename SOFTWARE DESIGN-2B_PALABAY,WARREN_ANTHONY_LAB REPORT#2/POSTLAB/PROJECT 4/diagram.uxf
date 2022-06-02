@@ -1,0 +1,38 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>320</x><y>410</y><w>100</w><h>150</h></coordinates><panel_attributes>ATM
+--
++getbalance
++deposit
++withdraw
+--
++_run()
++_processAccount()
++_getbalance()
++_withdraw()
++_deposit()
++_quit()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>410</y><w>130</w><h>150</h></coordinates><panel_attributes>Savings Account
+--
++Name
+-Pin 
+-Balance
+--
+-getbalance()
++getname()
+-getpin()
+-deposit()
+-withdraw()
++ComputeInterest()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>470</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>180;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>200</y><w>110</w><h>140</h></coordinates><panel_attributes>Bank
+--
++Accounts
++Filename
+--
+-add()
+-remove()
++get()
++computeInterest()
++save()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>330</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=*</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>450</x><y>100</y><w>120</w><h>30</h></coordinates><panel_attributes>Class Diagram: ATM</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>180</y><w>220</w><h>410</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>180</y><w>200</w><h>410</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>620</x><y>140</y><w>90</w><h>30</h></coordinates><panel_attributes>Model Classes</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>320</x><y>140</y><w>80</w><h>30</h></coordinates><panel_attributes>View Classes</panel_attributes><additional_attributes></additional_attributes></element></diagram>
